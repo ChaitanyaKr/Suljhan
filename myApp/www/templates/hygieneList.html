@@ -1,0 +1,37 @@
+<ion-view>
+	<ion-content>
+		<div class="card">
+			<div class="item item-text-wrap col">
+				<h1>
+					Hygiene and Sanitation
+				</h1>
+				<h3>
+					In this section, we enlist some basic practices necessary for maintaining good personal hygiene. 
+				</h3>
+
+				<ion-list>
+					<ion-item ng-repeat="video in hygieneVids" ng-click="toggleHygiene(video)" ng-class="{active:isHygieneShown(video)}">
+						<div class="row">
+							<div class="item item-text-wrap col">
+								<h2>
+									{{video.name}}
+								</h2>
+								
+								<ion-item class="item-accordion" ng-show="isHygieneShown(video)">
+	                               	<p>{{video.description}}
+	                               	</p>
+	                               	<ion-list ng-click=openModal({{video}})>
+										<h4>Click here to watch a video</h4>
+									</ion-list>
+	                          	</ion-item>
+							</div>
+						</div>
+					</ion-item>
+				</ion-list>
+				<ion-item href="#/app/faqs">
+					<h3>Tap here to read some frequently asked questions relating to Menstruation.</h3>
+				</ion-item>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

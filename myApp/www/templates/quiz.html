@@ -1,0 +1,119 @@
+<ion-view view-title="सुलझन Quiz">
+	<ion-content>
+			<div class="card" ng-show="inProgress">
+				<div ng-show="!quizOver">
+					<div class="item item-divider" id="score">
+						<a 
+							class="button icon-left ion-trophy button-dark" class="button button-dark">Score: {{score}} 
+						</a>
+
+					</div>
+
+					<br><br>
+										
+					<div class="text-center">
+						<h2 id="question">
+							{{question}}
+						</h2>
+					</div>
+					<br>
+
+					<div class="item item-text-wrap col">
+						<ion-list id="options">
+							<ion-item ng-repeat="option in options">
+								<label>
+									<input type="radio" name="answer" value="{{option}}">
+										{{option}}
+								</label>
+
+							</ion-item>
+						</ion-list>
+					</div>
+					
+					<div class = "row">
+						<div class="col text-center">
+							<button class="button button-positive" type="submit" ng-click="checkAnswer()" ng-show="answerMode">		
+								Submit
+							</button>
+						</div>
+					</div>
+		
+					<div  ng-show="!answerMode">
+						<div class = "row">
+							<div class="col text-center">
+								<a class="button icon-right ion-chevron-right button-positive" class="button button-positive" type="submit" ng-click="nextQuestion()" class="next-question">
+									Next
+								</a>
+							</div>
+						</div>
+
+						<span ng-show="correctAns">
+							<div class = "row">
+								<div class="col text-center">
+									<!-- <div class = "bar bar-balanced"> -->
+										<h2>
+											<span class="icon-left ion-trophy badge badge-balanced"> 
+												That is correct!
+											</span>
+										</h2>
+									<!-- </div> -->
+								</div>
+							</div>
+						</span>
+
+						<span ng-show="!correctAns">
+							<div class = "row">
+								<div class="col text-center">
+									<!-- <div class = "bar bar-assertive"> -->
+										<h2> 
+											<span class="badge badge-assertive">
+												Sorry, that is incorrect.
+											</span>
+										</h2>
+									<!-- </div> -->
+								</div>
+							</div>
+						</span>
+					</div>
+				</div>
+
+
+				<div ng-show="quizOver">
+					<br><br><br><br><br><br><br>
+						<h1>
+							<div class="text-center">
+								Quiz is over!
+								<br>
+								Your score is {{score}}.
+								<br>
+								Do you want to play again?
+
+								<br>
+								<br>
+									<button class="icon-left ion-play button button-positive" type="submit" ng-click="reset()">
+										Play Again
+									</button>
+							</div>
+						</h1>
+
+						
+				</div>
+			</div>
+
+			<div class="intro" ng-show="!inProgress">
+				<br><br><br><br><br><br><br>
+				<h1>
+					<div class="text-center">
+						Welcome to the Quiz!
+						<br><br>
+						<button class="icon-left ion-ribbon-b button button-positive" type="submit" id="startQuiz" ng-click="start()">
+								Start the Quiz
+						</button>
+					</div>
+
+				</h1>
+				
+				
+			</div>
+	</ion-content>
+</ion-view>

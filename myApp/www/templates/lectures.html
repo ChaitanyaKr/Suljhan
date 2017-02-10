@@ -1,0 +1,23 @@
+<ion-view>
+	<ion-content>
+		<div class="card">
+			<div class="item item-divider">
+				<h2>
+					Video Lectures
+				</h2>
+				<ion-list>
+					<ion-item ng-repeat="lecture in lectures" ng-click=openModal(lecture) >
+						<div class="item item-text-wrap col">
+							<h2>
+								{{lecture.lectureName}}
+							</h2>
+							<p>
+								{{lecture.description}}
+							</p>
+						</div>
+					</ion-item>
+				</ion-list>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

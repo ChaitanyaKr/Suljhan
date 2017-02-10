@@ -1,0 +1,34 @@
+<ion-view>
+	<ion-content>
+		<div class="card">
+			<div class="item item-text-wrap col" ng-click=toggleFAQs()>
+				<h1>
+					Menstruation
+				</h1>
+				<h3>
+					Some frequently asked questions.<br>
+					Tap on a question to see its answer.
+				</h3>
+				<ion-item ng-hide="toggleList">
+					<ion-list>
+						<ion-item ng-repeat="question in faqs" ng-click="toggleQuestion(question)" ng-class="{active:isAnswerShown(question)}">
+							<div class="row">
+								<div class="item item-text-wrap col">
+									<div class="faq_question">
+	      								<h2>{{question.question}}</h2>
+	  								</div>
+
+									<ion-item class="item-accordion" ng-show="isAnswerShown(question)">
+		           						<div class="faq_answer">
+		              						<p>{{question.answer}}</p>
+		              					</div>
+	                            	</ion-item>
+								</div>
+							</div>
+						</ion-item>
+					</ion-list>
+				</ion-item>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,402 @@
+{
+  "images":[
+    {
+      "id":0,
+      "name":"howto",
+      "image":"images/lecture.png"
+    },
+    {
+      "id":1,
+      "name":"laws",
+      "image":"images/laws.png"
+    },
+    {
+      "id":2,
+      "name":"rights",
+      "image":"images/rights.png"
+    },
+    {
+      "id":3,
+      "name":"schemes",
+      "image":"images/schemes.png"
+    },
+    {
+      "id":4,
+      "name":"health",
+      "image":"images/health.png"
+    },
+    {
+      "id":5,
+      "name":"quizzes",
+      "image":"images/quiz.png"
+    }
+  ],
+
+
+  "courses": [
+    {
+      "id": 0,
+      "name": "Basic Calculations",
+      "image": "images/course0.png",
+      "description": "This course is for helping you revisit basic mathematical concepts including addition and subtraction. Some lectures also walk you through basic concepts of geometry.",
+      "lectures":[
+        {
+          "lecture": 0,
+          "lectureName": "Addition and Subtraction",
+          "url": "http://www.youtube.com/embed/JZvpF6gaGH4",
+          "description": "We start with addition and subtraction."
+        },
+        
+        {
+          "lecture": 1,
+          "lectureName": "Basic Shapes",
+          "url": "https://www.youtube.com/embed/BntkWUraeuA?enablejsapi=1&version=3&playerapiid=ytplayer",
+          "description": "Circle, Square, Rectangle, Triangle"
+        },
+
+        {
+          "lecture": 2,
+          "lectureName": "Tables",
+          "url": "http://www.youtube.com/embed/JZvpF6gaGH4",
+          "description": "Tables from 2-10"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Banking Services",
+      "image": "images/course1.png",
+      "description": "This course is to get you comfortable with simple banking services such as openning a bank account, withdrawing and depositing cash and so on.",
+      "lectures":[
+        {
+          "lecture": 0,
+          "lectureName": "Open a bank account",
+          "url": "http://www.youtube.com/embed/JZvpF6gaGH4",
+          "description": "Through an example, we walk through the exact steps necessary for opening up a bank account."
+        },
+        
+        {
+          "lecture": 1,
+          "lectureName": "Withdraw cash from your account",
+          "url": "https://www.youtube.com/embed/BntkWUraeuA",
+          "description": "Withdrawing cash from the bank"
+        },
+
+        {
+          "lecture": 2,
+          "lectureName": "An ATM Card ",
+          "url": "http://www.youtube.com/embed/JZvpF6gaGH4",
+          "description": "The advantage of having and using an ATM card"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "IT Services",
+      "image": "images/course2.png",
+      "description": "This course aims to get you comfortable with the use of Information Technology, whether it be about sending an SMS, an email, or accessing any government facilities online.",
+      "lectures":[
+        {
+          "lecture": 0,
+          "lectureName": "Sending SMS",
+          "url": "https://www.youtube.com/embed/BntkWUraeuA",
+          "description": "Sending an SMS to a near and dear one, and how an SMS can help in times of emergency"
+        },
+        
+        {
+          "lecture": 1,
+          "lectureName": "Setting up an email account and sending mail",
+          "url": "http://www.youtube.com/embed/JZvpF6gaGH4",
+          "description": "This lecture walks you through the process of setting up an email account and eventually sending an email."
+        },
+
+        {
+          "lecture": 2,
+          "lectureName": "Using Google",
+          "url": "https://www.youtube.com/embed/BntkWUraeuA",
+          "description": "Here we familiarize you with the process of searching for information online."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Miscellaneous Services",
+      "image": "images/course3.png",
+      "description": "This course provides information about getting a Driver's License, Voter ID card and other such important government documents.",
+      "lectures":[
+        {
+          "lecture": 0,
+          "lectureName": "Getting a Driver's License",
+          "url": "http://www.youtube.com/embed/JZvpF6gaGH4",
+          "description": "Documents Reuqired, the online test and the final driving test"
+        },
+        
+        {
+          "lecture": 1,
+          "lectureName": "Getting a Voter ID card",
+          "url": "https://www.youtube.com/embed/BntkWUraeuA",
+          "description": "Along with emphasising upon the need to vote, the video also enlists the steps for getting a Voter ID card made."
+        },
+
+        {
+          "lecture": 2,
+          "lectureName": "Lorem Ipsum",
+          "url": "http://www.youtube.com/embed/JZvpF6gaGH4",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id neque mattis, porttitor turpis at, egestas mi. Donec non ultricies ipsum."
+        }
+      ]
+    }
+  ],
+  "laws": [
+    {
+      "id": 0,
+      "name": "The Child Labour (Prohibition and Regulation) Act 1986",
+      "image": "images/laws.png",
+      "description": "The Act prohibits employment of children in certain specified hazardous occupations and processes and regulates the working conditions in others. The list of hazardous occupations and processes is progressively being expanded on the recommendation of Child Labour Technical Advisory Committee constituted under the Act."
+    },
+    {
+      "id": 1,
+      "name": "The Right of Children to Free and Compulsory Education Act (RTE) 2009",
+      "image": "images/laws.png",
+      "description": "Pellentesque non orci vel tellus blandit mollis. Sed egestas ante mi. Cras tincidunt massa at auctor pulvinar. Fusce id arcu aliquam, finibus ante vitae, luctus odio. Vivamus sagittis sapien at urna malesuada porttitor. Sed eu tincidunt urna. Aliquam interdum, felis ac luctus porttitor, ante dui aliquam felis, id tempor nisl diam et lorem. Fusce lacinia, nibh eu accumsan egestas, enim magna malesuada felis, nec consequat metus ex ut sapien. Curabitur venenatis nunc id velit tincidunt ullamcorper."
+    },
+    {
+      "id": 2,
+      "name": "The Prohibition of Child Marriage Act (2006)",
+      "image": "images/laws.png",
+      "description": "Pellentesque non orci vel tellus blandit mollis. Sed egestas ante mi. Cras tincidunt massa at auctor pulvinar. Fusce id arcu aliquam, finibus ante vitae, luctus odio. Vivamus sagittis sapien at urna malesuada porttitor. Sed eu tincidunt urna. Aliquam interdum, felis ac luctus porttitor, ante dui aliquam felis, id tempor nisl diam et lorem. Fusce lacinia, nibh eu accumsan egestas, enim magna malesuada felis, nec consequat metus ex ut sapien. Curabitur venenatis nunc id velit tincidunt ullamcorper."
+    },
+    {
+      "id": 3,
+      "name": "The Immoral Traffic (Prevention) Act (ITPA) 1956",
+      "image": "images/laws.png",
+      "description": "Pellentesque non orci vel tellus blandit mollis. Sed egestas ante mi. Cras tincidunt massa at auctor pulvinar. Fusce id arcu aliquam, finibus ante vitae, luctus odio. Vivamus sagittis sapien at urna malesuada porttitor. Sed eu tincidunt urna. Aliquam interdum, felis ac luctus porttitor, ante dui aliquam felis, id tempor nisl diam et lorem. Fusce lacinia, nibh eu accumsan egestas, enim magna malesuada felis, nec consequat metus ex ut sapien. Curabitur venenatis nunc id velit tincidunt ullamcorper."
+    }
+
+  ],
+  
+  "rights": [
+    {
+      "id": 0,
+      "name": "Right to Life",
+      "image": "images/rights.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id neque mattis, porttitor turpis at, egestas mi. Donec non ultricies ipsum. Nulla in turpis odio. Quisque at tempus odio. Aenean porttitor velit a sollicitudin efficitur. Nunc dignissim turpis quis turpis tristique vulputate. Quisque ac lorem sed ligula mattis porta et id turpis. Aliquam maximus egestas nisi, ut lobortis ante. Integer pellentesque justo sit amet vulputate tristique. Vivamus mi libero, lobortis quis convallis vitae, sollicitudin ut erat. Vivamus sodales erat mauris."
+    },
+    {
+      "id": 1,
+      "name": "Right to a healthy childhood",
+      "image": "images/rights.png",
+      "description": "Pellentesque non orci vel tellus blandit mollis. Sed egestas ante mi. Cras tincidunt massa at auctor pulvinar. Fusce id arcu aliquam, finibus ante vitae, luctus odio. Vivamus sagittis sapien at urna malesuada porttitor. Sed eu tincidunt urna. Aliquam interdum, felis ac luctus porttitor, ante dui aliquam felis, id tempor nisl diam et lorem. Fusce lacinia, nibh eu accumsan egestas, enim magna malesuada felis, nec consequat metus ex ut sapien. Curabitur venenatis nunc id velit tincidunt ullamcorper."
+    },
+    {
+      "id": 2,
+      "name": "Right to freedom from all sorts of discrimination",
+      "image": "images/rights.png",
+      "description": "Pellentesque non orci vel tellus blandit mollis. Sed egestas ante mi. Cras tincidunt massa at auctor pulvinar. Fusce id arcu aliquam, finibus ante vitae, luctus odio. Vivamus sagittis sapien at urna malesuada porttitor. Sed eu tincidunt urna. Aliquam interdum, felis ac luctus porttitor, ante dui aliquam felis, id tempor nisl diam et lorem. Fusce lacinia, nibh eu accumsan egestas, enim magna malesuada felis, nec consequat metus ex ut sapien. Curabitur venenatis nunc id velit tincidunt ullamcorper."
+    }
+  ],
+  
+  "schemes": [
+    {
+      "id": 0,
+      "name": "12th Five Year Plan (2012-2017) by the National Planning Commission",
+      "image": "images/schemes.png",
+      "description": "Focuses on vocational training and life skills education, mainstreaming gender into the policy and institutional framework, and extension of the Right of Children to Free and Compulsory Education Act to guarantee education of girls up to senior secondary level."
+    },
+    {
+      "id": 1,
+      "name": "Five Year Strategic Plan (2011-2016) of the Ministry of Women and Child Development National Plan of Action for Children (2005)",
+      "image": "images/schemes.png",
+      "description": "Aims to considerably reduce anaemia among girls and aims to empower adolescent girls through nutrition, health care and life skills education. Objectives include promoting  physical, mental, emotional and reproductive health among  adolescents, sexuality and sexual responsibility, promotion of education including life skills, selfesteem and decision-making, protection from all forms of social, economic and sexual exploitation, violence and discrimination, and training opportunities to prepare them for sustainable livelihoods."
+    },
+    {
+      "id": 2,
+      "name": "National Charter for Children",
+      "image": "images/schemes.png",
+      "description": "Includes specific on adolescents, and reflects the recognition by government of adolescents as a specific group with specific needs. It obliges the State and community to take all steps to provide the necessary education and skills to adolescent children to become economically productive citizens."
+    },
+    {
+      "id": 3,
+      "name": "Draft National Youth Policy (2001)",
+      "image": "images/schemes.png",
+      "description": "Unlike the National Policy for the Empowerment of Women (2001), this adequately addresses gender inequality and provides a comprehensive view of adolescents and their concerns."
+    }
+  ],
+
+  "health": [
+    {
+      "id": 0,
+      "name": "On personal hygiene ",
+      "image": "images/health.png",
+      "url": "https://www.youtube.com/embed/BntkWUraeuA",
+      "description": "First health video"
+    },
+    {
+      "id": 1,
+      "name": "On proper sanitation",
+      "image": "images/health.png",
+      "url":"another/video/",
+      "description": "Second health video"
+    }
+  ],
+
+  "quizzes": [
+    {
+      "id": 0,
+      "category": "Basic Calculations",
+      "image": "images/quizIcon.png",
+      "description": "Test yourself out on basic calculations",
+      "questions":[
+        {
+          "question": "Which is the largest country in the world by population?",
+          "options": ["India", "USA", "China", "Russia"],
+          "answer": 2
+        },
+
+        {
+          "question": "When did the second world war end?",
+          "options": ["1945", "1939", "1944", "1942"],
+          "answer": 0
+        },
+
+        {
+          "question": "Which was the first country to issue paper currency?",
+          "options": ["USA", "France", "Italy", "China"],
+          "answer": 3
+        },
+        {
+          "question": "Which city hosted the 1996 Summer Olympics?",
+          "options": ["Atlanta", "Sydney", "Athens", "Beijing"],
+          "answer": 0
+        },
+        {
+          "question": "Who invented telephone?",
+          "options": ["Albert Einstein", "Alexander Graham Bell", "Isaac Newton", "Marie Curie"],
+          "answer": 1
+        }
+      ]
+
+    },
+    {
+      "id": 1,
+      "category": "Banking Services",
+      "image": "images/quizIcon.png",
+      "description": "Test yourself out on accessing banking facilities ",
+      "questions":[
+        {
+          "question": "Which is the largest country in the world by population?",
+          "options": ["India", "USA", "China", "Russia"],
+          "answer": 2
+        },
+
+        {
+          "question": "When did the second world war end?",
+          "options": ["1945", "1939", "1944", "1942"],
+          "answer": 0
+        },
+
+        {
+          "question": "Which was the first country to issue paper currency?",
+          "options": ["USA", "France", "Italy", "China"],
+          "answer": 3
+        },
+        {
+          "question": "Which city hosted the 1996 Summer Olympics?",
+          "options": ["Atlanta", "Sydney", "Athens", "Beijing"],
+          "answer": 0
+        },
+        {
+          "question": "Who invented telephone?",
+          "options": ["Albert Einstein", "Alexander Graham Bell", "Isaac Newton", "Marie Curie"],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "IT Services",
+      "image": "images/quizIcon.png",
+      "description": "Test yourself out on your knowledge of IT Services",
+      "questions":[
+        {
+          "question": "Which is the largest country in the world by population?",
+          "options": ["India", "USA", "China", "Russia"],
+          "answer": 2
+        },
+
+        {
+          "question": "When did the second world war end?",
+          "options": ["1945", "1939", "1944", "1942"],
+          "answer": 0
+        },
+
+        {
+          "question": "Which was the first country to issue paper currency?",
+          "options": ["USA", "France", "Italy", "China"],
+          "answer": 3
+        },
+        {
+          "question": "Which city hosted the 1996 Summer Olympics?",
+          "options": ["Atlanta", "Sydney", "Athens", "Beijing"],
+          "answer": 0
+        },
+        {
+          "question": "Who invented telephone?",
+          "options": ["Albert Einstein", "Alexander Graham Bell", "Isaac Newton", "Marie Curie"],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Miscellaneous Services",
+      "image": "images/quizIcon.png",
+      "description": "Test yourself out on questions from the Miscellaneous section",
+      "questions":[
+        {
+          "question": "Which is the largest country in the world by population?",
+          "options": ["India", "USA", "China", "Russia"],
+          "answer": 2
+        },
+
+        {
+          "question": "When did the second world war end?",
+          "options": ["1945", "1939", "1944", "1942"],
+          "answer": 0
+        },
+
+        {
+          "question": "Which was the first country to issue paper currency?",
+          "options": ["USA", "France", "Italy", "China"],
+          "answer": 3
+        },
+        {
+          "question": "Which city hosted the 1996 Summer Olympics?",
+          "options": ["Atlanta", "Sydney", "Athens", "Beijing"],
+          "answer": 0
+        },
+        {
+          "question": "Who invented telephone?",
+          "options": ["Albert Einstein", "Alexander Graham Bell", "Isaac Newton", "Marie Curie"],
+          "answer": 1
+        }
+      ]
+    }
+  ],
+
+  "makers":[
+    {
+     "id": 0,
+      "name": "Chaitanya",
+      "image": "images/Chaitanya.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet consectetur nulla. Maecenas varius lectus sed ipsum tempor congue. Praesent nec scelerisque ante. Maecenas sit amet ullamcorper risus. Suspendisse ultrices congue dui. Vestibulum in lorem eget mi facilisis sodales. Cras consectetur ullamcorper risus, at maximus nisl rhoncus in. Pellentesque posuere ac ante nec hendrerit. Nulla pretium felis sem, a lacinia lacus elementum a. Mauris hendrerit at odio nec fringilla."
+    },
+
+    {
+     "id": 1,
+      "name": "Deepali",
+      "image": "images/Deepali.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet consectetur nulla. Maecenas varius lectus sed ipsum tempor congue. Praesent nec scelerisque ante. Maecenas sit amet ullamcorper risus. Suspendisse ultrices congue dui. Vestibulum in lorem eget mi facilisis sodales. Cras consectetur ullamcorper risus, at maximus nisl rhoncus in. Pellentesque posuere ac ante nec hendrerit. Nulla pretium felis sem, a lacinia lacus elementum a. Mauris hendrerit at odio nec fringilla."
+    }
+  ]
+}

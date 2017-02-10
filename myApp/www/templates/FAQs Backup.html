@@ -1,0 +1,235 @@
+<ion-view>
+	<ion-content>
+		<div class="card">
+			<div class="item item-text-wrap col">
+				<h1>
+					Hygiene and Sanitation
+				</h1>
+				<p>
+					In this section, we enlist some basic practices necessary for maintaining good personal hygiene. 
+				</p>
+
+				<ion-list>
+					<ion-item ng-repeat="video in hygieneVids" ng-click="toggleHygiene(video)" ng-class="{active:isHygieneShown(video)}">
+						<div class="row">
+							<div class="item item-text-wrap col">
+								<h2>
+									<strong>{{video.name}}</strong>
+								</h2>
+								
+								<ion-item class="item-accordion" ng-show="isHygieneShown(video)">
+                                	<h2>{{video.description}}</h2>
+                            	</ion-item>
+								<ion-item ng-click=openModal({{video}})>
+									<h4>Click here to watch the video</h4>
+								</ion-item>
+							</div>
+						</div>
+					</ion-item>
+				</ion-list>
+
+				<ion-item>	
+					<div class="faq_container">
+						<h2>
+							Some frequently asked questions, relating to Menstruation: 
+						</h2>
+						<ul>
+		   					<li>
+		      					<div class="faq_question">
+		      						<p><strong>What changes do we see in the body while growing up?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>Height and weight increases, breasts begin to develop, hips widen and hair begins to appear in the underarms and around the genitals.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+		           			<li>
+		      					<div class="faq_question">
+		      						<p><strong>What is vaginal discharge? Is it normal?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p> Vaginal discharge is whitish or clear secretions from the vagina. It is normal.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+		           			<li>
+		      					<div class="faq_question">
+		      						<p><strong>How many openings are there between our legs? What is the purpose of each opening?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>There are three openings between our legs. <emph>Urethra</emph>, from where the urine comes out; <emph>Vagina</emph>, from where the baby comes out during childbirth; and <emph>Anus</emph>, from where the feces come out.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+		           			<li>
+		      					<div class="faq_question">
+		      						<p><strong>What do we need iron for?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>Iron is necessary for carrying Oxygen in the blood. Deficiency of iron causes <emph>Anaemia</emph> in which case you feel very weak even after taking rest.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+		           			<li>
+		      					<div class="faq_question">
+		      						<p><strong>What are the sources of Iron?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>Peas, spinach, potato with skin, dal, nuts and dry fruits and fish</p>
+		              				</div>
+		           				</div>
+		           			</li>
+		    				
+		           			<li>
+		      					<div class="faq_question">
+		      						<p><strong>Why is it better to have Iron rich food with food rich in Vitamin C?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>Having Iron rich food with food rich in Vitamin C increases the absorption of iron in the body. </p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+		           			<li>
+		      					<div class="faq_question">
+		      						<p><strong>What are periods? Is it normal?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>Periods are a process during which blood comes out of the vagina for 3-7 days. It is normal.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+		           			<li>
+		      					<div class="faq_question">
+		      						<p><strong>Why does blood come out of vagina during periods?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>In the absence of a baby, the uterus sheds its inner lining of blood and soft tissue, which we see as blood coming out of the vagina.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+		           			<li>
+		      					<div class="faq_question">
+		      						<p><strong>When do periods start and stop?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>Periods generally start between the ages of 10 to 15 years and stop between the ages of 45 to 55 years.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+		           			<li>
+		      					<div class="faq_question">
+		      						<p><strong>Can you find out when will you get your next period? How?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>Yes. Periods generally occur after regular intervals which can be known by tracking periods on a calendar. This interval is known as length of menstrual cycle. By knowing the date of last period and the length of menstrual cycle, we can find out the date of next period.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+		           			<li>
+		      					<div class="faq_question">
+		      						<p><strong>Why do some girls feel pain in their lower abdomen during periods? How to reduce pain?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>The Uterus contracts to squeeze out the menstrual fluid. That’s why some girls feel pain in their lower abdomen. The pain can be reduced by applying a warm heating pad to the lower abdomen and getting the body into child pose - <emph>Balasana</emph>, butterfly pose - <emph>Titliasana</emph> and cobra pose - <emph>Bhujangasana</emph> and holding the pose for five deep breaths.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+		           			<li>
+		      					<div class="faq_question">
+		      						<p><strong>What is <emph>Menopause</emph>?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>Between the ages of 45 and 55 years, periods stop. This is known as Menopause.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+		           			<li>
+		      					<div class="faq_question">
+		      						<p><strong>What is a <emph>sanitary pad</emph> and how to use it?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>Sanitary pad is a thin pad of absorbent material that is used to absorb the blood coming out during periods. Sanitary pad is worn in the underwear such that it exactly covers the opening of the Vagina.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+		           			<li>
+		      					<div class="faq_question">
+		      						<p><strong>How to dispose a sanitary pad? Can sanitary pads be flushed down the toilet?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>Used sanitary pads must be wrapped in waste paper and put in a garbage bin. Thereafter the lid of the garbage bin must be closed. Sanitary pads should never be flushed down a toilet.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+							<li>
+		      					<div class="faq_question">
+		      						<p><strong>What to do if you get periods in school?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>You should tell a teacher or school nurse about it and ask her for a pad. You can also borrow a pad from a friend.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+							<li>
+		      					<div class="faq_question">
+		      						<p><strong>What hygeiene measures should be taken during periods?</strong></p>
+		  						</div>
+		           				
+		           				<div class="faq_answer_container">
+		              				<div class="faq_answer">
+		              					<p>You should take a shower at least once a day. You should wear clean undergarments and change them regularly. Pads should be changed regularly and hands should be washed clean, before and after changing pads. The genital area should be kept clean and dry.</p>
+		              				</div>
+		           				</div>
+		           			</li>
+
+		    			</ul>
+	 				</div>
+	 			</ion-item>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

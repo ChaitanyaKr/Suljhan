@@ -1,0 +1,28 @@
+<ion-view>
+	<ion-content>
+		<div class="card">
+			<div class="item item-text-wrap col">
+				<h1>
+					Rights and Duties
+				</h1>
+				<p>
+					According to the United Nations and United Nations Convention on the Rights of the Child (UNCRC) child rights are minimum entitlements and freedoms that should be afforded to all persons below the age of 18 regardless of race, colour, gender, language, religion, opinions, origins, wealth, birth status or ability.
+					<br>
+					There are four broad classifications of these rights. These four categories cover all civil, political, social, economic and cultural rights of every child.
+
+				</p>
+
+				<ion-list>
+					<ion-item ng-repeat="right in rights">
+						<div class="row">
+							<div class="item item-text-wrap col">
+								<h2>{{right.name}}</h2>
+								<p>{{right.description}}</p>
+							</div>
+						</div>
+					</ion-item>
+				</ion-list>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

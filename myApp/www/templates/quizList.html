@@ -1,0 +1,35 @@
+<ion-view>
+	<ion-content>
+		<div class="card">
+			<div class="item item-divider">
+				<h1>
+					Quiz categories
+				</h1>
+			</div>
+			<div class="row">
+				<div class="item item-text-wrap col">
+					<p>
+						So you've seen the HowTo section and think you've understood them well? Let's take a quiz and find out!
+						<br>
+					</p>
+				</div>
+			</div>
+
+			<ion-list>
+				<ion-item ng-repeat="quiz in quizzes" href="#/app/quizList/{{quiz.id}}">
+					<div class="item item-avatar">
+						<img ng-src="{{baseURL+quiz.image}}">
+						<div class="item item-text-wrap col"
+							<h2>
+								{{quiz.category}}
+							</h2>
+							<p>
+								{{quiz.description}}
+							</p>
+						</div>
+					</div>
+				</ion-item>
+			</ion-list>
+		</div>
+	</ion-content>
+</ion-view>

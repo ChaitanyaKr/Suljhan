@@ -1,0 +1,26 @@
+<ion-view>
+	<ion-content>
+		<div class="card">
+			<div class="item item-text-wrap col">
+				<h1>
+					Government of India Schemes
+				</h1>
+				<ion-list>
+					<ion-item ng-repeat="scheme in schemes">
+						<div class="row">
+							<div class="item item-text-wrap col">
+								<h2>{{scheme.name}}</h2>
+								<p>
+									{{scheme.description}}
+									<br>
+									You may read up more <a href="{{scheme.url}}">here</a>
+								</p>
+
+							</div>
+						</div>
+					</ion-item>
+				</ion-list>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

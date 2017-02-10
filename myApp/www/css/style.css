@@ -1,0 +1,180 @@
+/* Empty. Add your own CSS if you like */
+
+.video-container {
+	float: none;
+	clear: both;
+	width: 100%;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;     
+	height: 0;
+	overflow: hidden;
+}
+ 
+.video-container iframe{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+ul.sublist {
+    font-size: 14px;
+    margin-left: 20px;
+    list-style-type: circle;
+    color:  #997bfb;
+    
+ }
+
+
+ul {
+    font-size: 14px;
+    margin-left: 20px;
+    list-style-type: square;
+    color:  #997bfb;
+    
+ }
+
+.row p{
+    color:  #997bfb;
+}
+
+.list .item.item-accordion {
+    line-height: 22px;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: 0.04s all linear;
+    
+}
+
+.list .item.item-accordion.ng-hide {
+  line-height: 0px;
+}
+
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+  display: block !important;
+}
+
+.custom {
+/*  background-color: #997bfb !important; /* This sets the background color*/
+ }
+
+ /*Set the background to transparent for ion-item*/
+.custom .item {
+  border-style: solid;
+  background-color: #transparent;
+  border-width:2px;   
+  border-color: white;  
+}
+ 
+
+/*Changes the border for the last item*/
+.custom .item:last-child {
+  border-bottom: 2px solid #ffffff;
+}
+ 
+.custom .item-complex .item-content, .dark .item-radio .item-content {
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+
+}
+
+.item1 {
+    background-color: white;
+}
+.item2 {
+    background-color: white;
+}
+.item3 {
+    background-color: white;
+}
+
+
+/*Just makes the type purple*/
+.custom h2,
+.custom h3,
+.custom p,
+.custom a {
+  color: #886aea;  
+}
+
+.title{
+/*    background-color: #886aea;*/
+    border-style: solid;
+    border: 0px;
+    border-color: #886aea;
+}
+
+/*Home*/
+
+.item.item-avatar{
+    border-style: solid;
+    background-color: white;  
+    border-width:1px;   
+/*    border-color: red;*/
+    padding-right: 2px;
+}
+
+.item.item-body{
+    border-style: solid;
+    background-color: white;
+    border-width:2px;  
+    border-color: blue;
+
+}
+
+.item.item-body p {
+    color: #997bfb;
+    border-width:2px;
+    border-color:black;
+}
+
+.item.item-avatar h2{
+    color: #997bfb;
+    font-weight: bold;
+}
+
+
+
+/*Start of other pages*/
+.card {
+  
+    color:  #886aea;
+    padding: 0px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+
+}
+
+.item.item-text-wrap.col h2, h1, p {
+    color:  #886aea;
+    
+}
+
+
+.item.item-divider h1{
+    color:  #886aea;
+}
+
+.listcourses{
+    padding-right:none;
+
+
+}
+.courses {
+    padding:2px;
+    border-color:blue;
+    
+}
+.courses p {
+    background-color: white; 
+    padding-right:0px;
+    color: #997bfb;
+}
+

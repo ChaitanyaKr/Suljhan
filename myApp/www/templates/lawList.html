@@ -1,0 +1,26 @@
+<ion-view>
+	<ion-content>
+		<div class="card">
+			<div class="item item-text-wrap col">
+				<h1>
+					Constitutional Acts
+				</h1>
+				<p>
+					<color="#997bfb">
+					&emsp;safeguarding your interests as an adolescent
+					</color>
+				</p>
+				<ion-list>
+					<ion-item ng-repeat="law in laws">
+						<div class="row">
+							<div class="item item-text-wrap col">
+								<h2>{{law.name}}</h2>
+								<p>{{law.description}}</p>
+							</div>
+						</div>
+					</ion-item>
+				</ion-list>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

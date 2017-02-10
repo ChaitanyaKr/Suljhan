@@ -1,0 +1,29 @@
+
+<ion-view>
+    <ion-content>
+        <div class="card">
+            <div class="item item-text-wrap col">
+                <h2>
+                    Helpline Numbers
+                    <p>Some important helpline numbers, for use in terms of crisis.</p>
+                </h2>
+            </div>
+            <div class="card">
+                <ion-list>
+                    <ion-item ng-repeat="helpline in helplines" ng-click="toggleHelpline(helpline)" ng-class="{active:isHelplineShown(helpline)}">
+                        <div class="item item-text-wrap col">
+                            <h2>
+                                {{helpline.cityName}}
+                            </h2>
+                            <ion-item class="item-accordion" ng-show="isHelplineShown(helpline)">
+                                <span class="icon-left ion-android-call">
+                                    {{helpline.number}}
+                                </span>
+                            </ion-item>
+                        </div>
+                    </ion-item>
+                </ion-list>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
